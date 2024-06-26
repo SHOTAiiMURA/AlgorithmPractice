@@ -26,10 +26,10 @@ public class YOKO {
         int row2 = 10;
         for (int u = 0; u < row2 ; u++){
             if (u % 2 == 0){
-                System.out.printf("◇");
+                System.out.print("◇");
             }
             else{
-                System.out.println("◆");
+                System.out.print("◆");
             }
         }
         //Q7
@@ -38,10 +38,10 @@ public class YOKO {
         for (int f = 0; f < row3; f++){
           for (int g = 0; g < col3; g++){
               if (g % 2 == 0){
-                  System.out.print(" ");
+                  System.out.print("◆"+" ");
               }
               else{
-                  System.out.println("◆");
+                  System.out.print(" ");
               }
           }
             System.out.println();
