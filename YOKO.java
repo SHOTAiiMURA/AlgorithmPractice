@@ -66,5 +66,11 @@ public class YOKO {
             }
             System.out.println();
         }
+        for (int v = 0; v < 8; v++) {
+            for (int b= 0; b < 1+v; b++){
+                System.out.print("◆");
+            }
+            System.out.println();
+        }
     }
 }
