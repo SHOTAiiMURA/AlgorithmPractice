@@ -72,5 +72,6 @@ public class YOKO {
             }
             System.out.println();
         }
+
     }
 }
