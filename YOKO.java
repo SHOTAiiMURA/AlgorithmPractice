@@ -51,5 +51,20 @@ public class YOKO {
         }
         // 改行を追加して、次の出力が新しい行から始まるようにします。
         System.out.println();
+        //行数に「6」、列数に「10」を指定した場合の実行例は次のとおりです。
+        int row4 = 6;
+        int col4 = 10;
+        for (int k = 0; k < row4; k++){
+            int x = k % 2;
+            for (int l = 0; l < col4; l++){
+                if (l % 2 == x){
+                    System.out.print("◆"+" ");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
