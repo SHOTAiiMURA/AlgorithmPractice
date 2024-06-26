@@ -46,6 +46,10 @@ public class YOKO {
           }
             System.out.println();
         }
-
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i + " ");
+        }
+        // 改行を追加して、次の出力が新しい行から始まるようにします。
+        System.out.println();
     }
 }
