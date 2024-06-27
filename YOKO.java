@@ -129,10 +129,28 @@ public class YOKO {
             for(int e = 1; e <= m; e++){
                 int kuku = e * d;
                 System.out.print(kuku);
-                System.out.print(',');˚
+                System.out.print(',');
             }
             System.out.println();
         }
+        //整数型（Javaではint型）5個分の配列を宣言し、利用できるようにしてください。【配列の宣言】
+        int[]  array = new int[5];
+        //上記の配列に以下の値を代入してください。【配列の利用〜添字指定で代入】
+        array[0] = 10;
+        array[1] = 25;
+        array[2] = 9;
+        array[3] = 3;
+        array[4] = 15;
+        //上記の配列について「0番のデータ」の内容を表示してください。【配列の利用〜添字指定で表示】
+        System.out.println(array[0]);
+        //上記の配列について「1番のデータ」と「4番のデータ」を足した結果を表示してください。【配列の利用〜添字指定で計算】
+        int result = array[1] + array[4];
+        System.out.println(result);
+        //続けて、新しく上記とは別の配列変数名で整数型（Javaではint型）3個分の配列を宣言し、利用できるようにしてください。ただし、今度は宣言と同時に以下の値が代入されるようにしてください。【配列宣言と同時に初期化】
+        int[] array2 = {4,8,12};
+        //「１つ目の配列の3番のデータ」と「2つ目の配列の2番のデータ」をかけ算した結果を表示してください。【配列変数名で区別しての利用】
+        int result2 = array[3] * array2[2];
+        System.out.println(result2);
     }
 
 }
