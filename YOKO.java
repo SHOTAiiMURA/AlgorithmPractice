@@ -93,7 +93,11 @@ public class YOKO {
             System.out.println(multiple2);
         }
         for(int s = 1; s <= 20 ; s++){
-
+            int multiple3 = s * 4;
+            System.out.println(multiple3);
+            if(multiple3 == 20){
+                break;
+            }
         }
     }
 }
