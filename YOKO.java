@@ -72,6 +72,25 @@ public class YOKO {
             }
             System.out.println();
         }
-
+        for(int a = 0; a < 8  ; a++){
+            for(int b = 0; b < 8; b++){
+                if(b == 8 - a -1){
+                    System.out.print("◆");
+                    break;
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+        for(int a = 1; a < 8  ; a++){
+            int multiple = a * 10;
+            System.out.println(multiple);
+        }
+        for(int p = 1; p <= 7  ; p++){
+            int multiple2 = p * 5;
+            System.out.println(multiple2);
+        }
     }
 }
