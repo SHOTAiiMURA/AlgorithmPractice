@@ -105,6 +105,25 @@ public class YOKO {
         for(int s = 1; s <= 20 ; s++){
             System.out.print(s+","+" ");
         }
+        int l = 20;
+        for(int k = 1; k <= l ; k++){
+            System.out.print(k);
+            if(k != l){
+                System.out.print(",");
+            }
+
+        }
+        for(int k = 1; k <= l ; k++){
+            if(k % 3 ==0){
+                System.out.print("?");
+            }
+            else{
+                System.out.print(k);
+            }
+            if(k != l){
+                System.out.print(",");
+            }
+        }
     }
 
 }
