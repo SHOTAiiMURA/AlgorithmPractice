@@ -151,6 +151,14 @@ public class YOKO {
         //「１つ目の配列の3番のデータ」と「2つ目の配列の2番のデータ」をかけ算した結果を表示してください。【配列変数名で区別しての利用】
         int result2 = array[3] * array2[2];
         System.out.println(result2);
+
+        String[] a = {"abc", "abcd", "abcde", "xx", "yyy"};
+        int n = 3;
+        for (int i = 0; i < a.length; i++) {
+            if(a[i].length()<=n){
+                System.out.print(a[i]);
+            }
+        }
     }
 
 }
