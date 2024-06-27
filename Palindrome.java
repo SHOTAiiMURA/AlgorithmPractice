@@ -1,6 +1,6 @@
 public class Palindrome {
     public static boolean isPalindrome(String str) {
-
+        int
         return true;
     }
 
