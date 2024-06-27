@@ -124,6 +124,15 @@ public class YOKO {
                 System.out.print(",");
             }
         }
+        int m = 9;
+        for(int d = 1; d <= m ; d++){
+            for(int e = 1; e <= m; e++){
+                int kuku = e * d;
+                System.out.print(kuku);
+                System.out.print(',');˚
+            }
+            System.out.println();
+        }
     }
 
 }
