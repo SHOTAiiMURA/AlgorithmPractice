@@ -1,7 +1,12 @@
 public class Palindrome {
     public static boolean isPalindrome(String str) {
-        int
-        return true;
+        StringBuilder sb = new StringBuilder(str);
+        String reversed = sb.reverse().toString();
+
+        if(sb.toString().equals(str)) {
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
