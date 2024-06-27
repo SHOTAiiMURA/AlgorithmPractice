@@ -99,5 +99,12 @@ public class YOKO {
                 break;
             }
         }
+        for(int s = 10; s >=1 ; s--){
+            System.out.println(s);
+        }
+        for(int s = 1; s <= 20 ; s++){
+            System.out.print(s+","+" ");
+        }
     }
+
 }
