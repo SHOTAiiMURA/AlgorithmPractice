@@ -92,5 +92,8 @@ public class YOKO {
             int multiple2 = p * 5;
             System.out.println(multiple2);
         }
+        for(int s = 1; s <= 20 ; s++){
+
+        }
     }
 }
