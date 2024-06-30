@@ -27,7 +27,7 @@ public class MergeSort{
         int i = 0; //left array
         int j = 0; //right array
 
-        for(; i < length; i++) {
+        for(i = 0; i < length; i++) {
             if(i < middle) {
                 leftArray[i] = array[i];
             }
@@ -42,7 +42,6 @@ public class MergeSort{
     }
 
     private static void merge(int[] leftArray, int[] rightArray, int[] array) {
-
         int leftSize = array.length / 2;
         int rightSize = array.length - leftSize;
         int i = 0, l = 0, r = 0; //indices

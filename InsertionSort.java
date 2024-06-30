@@ -7,7 +7,7 @@ public class InsertionSort {
             //descending order
             //while(i>0 && data[j-1]<data[i])
             //accending order
-            while (j > 0 && data[j - 1] > data[j]) {
+            while (j > 0 && data[j - 1] < data[j]) {
                 temp = data[j - 1];
                 data[j - 1] = data[j];
                 data[j] = temp;
